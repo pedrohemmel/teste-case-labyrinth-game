@@ -20,3 +20,27 @@ The task is to write a simple maze/labyrinth game - you can use any language/fra
 12, 10, 9, 13,  
 6, 5, 6, 5}  
 * And do Labyrinth generator of any size 
+
+## Case analysis
+
+Make a maze game, the maze will be an array of decimal numbers. Each decimal number will be represented as binary and this will define the movement of the numbers.  
+  
+* (2^0) - esquerda
+* (2^1) - direita
+* (2^2) - cima
+* (2^3) - baixo
+
+So by logic, if we are at number 10 (dec) being represented by 1010 (bin), we can go right or down, because:
+
+2ˆ3 - 2^2 - 2ˆ1 - 2ˆ0  
+   |         |         |        |  
+  1   —  0   —  1  —  0  
+BX -  N/D - DIR - N/D  
+
+The game ends when the player reaches the state with value 0.  
+
+What will be done?  
+
+An application using Swift with UIKit to create a matrix-shaped board to implement the movement logic to the reward state (state with value 0). And after that, show a result screen with the option to redo the maze.  
+
+The initial state is the decimal number that, when converted to binary, contains 2ˆ4, therefore, in the case given by the exercise, it would be in the number 28 dec.
