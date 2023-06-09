@@ -15,8 +15,10 @@ The task is to write a simple maze/labyrinth game - you can use any language/fra
 * The end of the game consists in reaching the specific alloy chamber value 0. 
 * The start chamber has a bit 4 (2^4). 
 * Example of a maze: 
+///
 {10, 8, 10, 9, 
 28, 1, 0, 12, 
 12, 10, 9, 13, 
 6, 5, 6, 5} 
+///
 * And do Labyrinth generator of any size 
