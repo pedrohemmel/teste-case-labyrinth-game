@@ -33,7 +33,7 @@ Make a maze game, the maze will be an array of decimal numbers. Each decimal num
 So by logic, if we are at number 10 (dec) being represented by 1010 (bin), we can go right or down, because:
 
 2ˆ3 - 2^2 - 2ˆ1 - 2ˆ0  
-   |         |         |        |  
+   | -- | -- | -- |  
   1   —  0   —  1  —  0  
 BX -  N/D - DIR - N/D  
 
