@@ -9,64 +9,43 @@
 /* Begin PBXBuildFile section */
 		BB0EFAA62A322614009DA542 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EFAA52A322614009DA542 /* AppDelegate.swift */; };
 		BB0EFAA82A322614009DA542 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EFAA72A322614009DA542 /* SceneDelegate.swift */; };
-		BB0EFAAA2A322614009DA542 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EFAA92A322614009DA542 /* ViewController.swift */; };
-		BB0EFAAD2A322614009DA542 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0EFAAB2A322614009DA542 /* Main.storyboard */; };
+		BB0EFAAA2A322614009DA542 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EFAA92A322614009DA542 /* HomeController.swift */; };
 		BB0EFAAF2A322615009DA542 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB0EFAAE2A322615009DA542 /* Assets.xcassets */; };
 		BB0EFAB22A322615009DA542 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB0EFAB02A322615009DA542 /* LaunchScreen.storyboard */; };
-		BB0EFABD2A322615009DA542 /* teste_case_labyrinth_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EFABC2A322615009DA542 /* teste_case_labyrinth_gameTests.swift */; };
-		BB0EFAC72A322615009DA542 /* teste_case_labyrinth_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EFAC62A322615009DA542 /* teste_case_labyrinth_gameUITests.swift */; };
-		BB0EFAC92A322615009DA542 /* teste_case_labyrinth_gameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EFAC82A322615009DA542 /* teste_case_labyrinth_gameUITestsLaunchTests.swift */; };
+		BB0EFADA2A32A3F7009DA542 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EFAD92A32A3F7009DA542 /* HomeView.swift */; };
+		BB0EFADD2A32A464009DA542 /* ViewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EFADC2A32A464009DA542 /* ViewCode.swift */; };
+		BB0EFADF2A32A9D0009DA542 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EFADE2A32A9D0009DA542 /* Protocols.swift */; };
+		BB0EFAE12A32AA76009DA542 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EFAE02A32AA76009DA542 /* GameController.swift */; };
+		BB0EFB222A32B16D009DA542 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EFB212A32B16D009DA542 /* GameView.swift */; };
+		BB0EFB262A32B45E009DA542 /* GameTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EFB252A32B45E009DA542 /* GameTableView.swift */; };
+		BB0EFB292A32B51D009DA542 /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EFB282A32B51D009DA542 /* GameTableViewCell.swift */; };
+		BB0EFB2B2A32BE17009DA542 /* GameButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EFB2A2A32BE17009DA542 /* GameButtons.swift */; };
+		BB0EFB2D2A32E282009DA542 /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EFB2C2A32E282009DA542 /* ResultController.swift */; };
+		BB0EFB2F2A32E2E7009DA542 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB0EFB2E2A32E2E7009DA542 /* ResultView.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		BB0EFAB92A322615009DA542 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BB0EFA9A2A322614009DA542 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BB0EFAA12A322614009DA542;
-			remoteInfo = "teste-case-labyrinth-game";
-		};
-		BB0EFAC32A322615009DA542 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BB0EFA9A2A322614009DA542 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BB0EFAA12A322614009DA542;
-			remoteInfo = "teste-case-labyrinth-game";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		BB0EFAA22A322614009DA542 /* teste-case-labyrinth-game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "teste-case-labyrinth-game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0EFAA52A322614009DA542 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB0EFAA72A322614009DA542 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BB0EFAA92A322614009DA542 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BB0EFAAC2A322614009DA542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB0EFAA92A322614009DA542 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		BB0EFAAE2A322615009DA542 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB0EFAB12A322615009DA542 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB0EFAB32A322615009DA542 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BB0EFAB82A322615009DA542 /* teste-case-labyrinth-gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "teste-case-labyrinth-gameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB0EFABC2A322615009DA542 /* teste_case_labyrinth_gameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teste_case_labyrinth_gameTests.swift; sourceTree = "<group>"; };
-		BB0EFAC22A322615009DA542 /* teste-case-labyrinth-gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "teste-case-labyrinth-gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB0EFAC62A322615009DA542 /* teste_case_labyrinth_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teste_case_labyrinth_gameUITests.swift; sourceTree = "<group>"; };
-		BB0EFAC82A322615009DA542 /* teste_case_labyrinth_gameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = teste_case_labyrinth_gameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BB0EFAD92A32A3F7009DA542 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BB0EFADC2A32A464009DA542 /* ViewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCode.swift; sourceTree = "<group>"; };
+		BB0EFADE2A32A9D0009DA542 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		BB0EFAE02A32AA76009DA542 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		BB0EFB212A32B16D009DA542 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		BB0EFB252A32B45E009DA542 /* GameTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableView.swift; sourceTree = "<group>"; };
+		BB0EFB282A32B51D009DA542 /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
+		BB0EFB2A2A32BE17009DA542 /* GameButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameButtons.swift; sourceTree = "<group>"; };
+		BB0EFB2C2A32E282009DA542 /* ResultController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
+		BB0EFB2E2A32E2E7009DA542 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BB0EFA9F2A322614009DA542 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB0EFAB52A322615009DA542 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB0EFABF2A322615009DA542 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,8 +59,6 @@
 			isa = PBXGroup;
 			children = (
 				BB0EFAA42A322614009DA542 /* teste-case-labyrinth-game */,
-				BB0EFABB2A322615009DA542 /* teste-case-labyrinth-gameTests */,
-				BB0EFAC52A322615009DA542 /* teste-case-labyrinth-gameUITests */,
 				BB0EFAA32A322614009DA542 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,8 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				BB0EFAA22A322614009DA542 /* teste-case-labyrinth-game.app */,
-				BB0EFAB82A322615009DA542 /* teste-case-labyrinth-gameTests.xctest */,
-				BB0EFAC22A322615009DA542 /* teste-case-labyrinth-gameUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,32 +74,80 @@
 		BB0EFAA42A322614009DA542 /* teste-case-labyrinth-game */ = {
 			isa = PBXGroup;
 			children = (
-				BB0EFAA52A322614009DA542 /* AppDelegate.swift */,
-				BB0EFAA72A322614009DA542 /* SceneDelegate.swift */,
-				BB0EFAA92A322614009DA542 /* ViewController.swift */,
-				BB0EFAAB2A322614009DA542 /* Main.storyboard */,
-				BB0EFAAE2A322615009DA542 /* Assets.xcassets */,
-				BB0EFAB02A322615009DA542 /* LaunchScreen.storyboard */,
+				BB0EFADB2A32A44C009DA542 /* Utils */,
+				BB0EFAD62A32A3B0009DA542 /* View */,
+				BB0EFAD52A32A3A9009DA542 /* Controller */,
+				BB0EFB232A32B3E0009DA542 /* Supporting */,
 				BB0EFAB32A322615009DA542 /* Info.plist */,
 			);
 			path = "teste-case-labyrinth-game";
 			sourceTree = "<group>";
 		};
-		BB0EFABB2A322615009DA542 /* teste-case-labyrinth-gameTests */ = {
+		BB0EFAD52A32A3A9009DA542 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BB0EFABC2A322615009DA542 /* teste_case_labyrinth_gameTests.swift */,
+				BB0EFAA92A322614009DA542 /* HomeController.swift */,
+				BB0EFAE02A32AA76009DA542 /* GameController.swift */,
+				BB0EFB2C2A32E282009DA542 /* ResultController.swift */,
 			);
-			path = "teste-case-labyrinth-gameTests";
+			path = Controller;
 			sourceTree = "<group>";
 		};
-		BB0EFAC52A322615009DA542 /* teste-case-labyrinth-gameUITests */ = {
+		BB0EFAD62A32A3B0009DA542 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				BB0EFAC62A322615009DA542 /* teste_case_labyrinth_gameUITests.swift */,
-				BB0EFAC82A322615009DA542 /* teste_case_labyrinth_gameUITestsLaunchTests.swift */,
+				BB0EFAD92A32A3F7009DA542 /* HomeView.swift */,
+				BB0EFB2E2A32E2E7009DA542 /* ResultView.swift */,
+				BB0EFB202A32B160009DA542 /* Game */,
 			);
-			path = "teste-case-labyrinth-gameUITests";
+			path = View;
+			sourceTree = "<group>";
+		};
+		BB0EFADB2A32A44C009DA542 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				BB0EFADC2A32A464009DA542 /* ViewCode.swift */,
+				BB0EFADE2A32A9D0009DA542 /* Protocols.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		BB0EFB202A32B160009DA542 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				BB0EFB212A32B16D009DA542 /* GameView.swift */,
+				BB0EFB242A32B447009DA542 /* Views */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		BB0EFB232A32B3E0009DA542 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				BB0EFAA52A322614009DA542 /* AppDelegate.swift */,
+				BB0EFAA72A322614009DA542 /* SceneDelegate.swift */,
+				BB0EFAAE2A322615009DA542 /* Assets.xcassets */,
+				BB0EFAB02A322615009DA542 /* LaunchScreen.storyboard */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		BB0EFB242A32B447009DA542 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB0EFB272A32B493009DA542 /* Cells */,
+				BB0EFB252A32B45E009DA542 /* GameTableView.swift */,
+				BB0EFB2A2A32BE17009DA542 /* GameButtons.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB0EFB272A32B493009DA542 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BB0EFB282A32B51D009DA542 /* GameTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,42 +170,6 @@
 			productReference = BB0EFAA22A322614009DA542 /* teste-case-labyrinth-game.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BB0EFAB72A322615009DA542 /* teste-case-labyrinth-gameTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BB0EFACF2A322615009DA542 /* Build configuration list for PBXNativeTarget "teste-case-labyrinth-gameTests" */;
-			buildPhases = (
-				BB0EFAB42A322615009DA542 /* Sources */,
-				BB0EFAB52A322615009DA542 /* Frameworks */,
-				BB0EFAB62A322615009DA542 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BB0EFABA2A322615009DA542 /* PBXTargetDependency */,
-			);
-			name = "teste-case-labyrinth-gameTests";
-			productName = "teste-case-labyrinth-gameTests";
-			productReference = BB0EFAB82A322615009DA542 /* teste-case-labyrinth-gameTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BB0EFAC12A322615009DA542 /* teste-case-labyrinth-gameUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BB0EFAD22A322615009DA542 /* Build configuration list for PBXNativeTarget "teste-case-labyrinth-gameUITests" */;
-			buildPhases = (
-				BB0EFABE2A322615009DA542 /* Sources */,
-				BB0EFABF2A322615009DA542 /* Frameworks */,
-				BB0EFAC02A322615009DA542 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BB0EFAC42A322615009DA542 /* PBXTargetDependency */,
-			);
-			name = "teste-case-labyrinth-gameUITests";
-			productName = "teste-case-labyrinth-gameUITests";
-			productReference = BB0EFAC22A322615009DA542 /* teste-case-labyrinth-gameUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,14 +182,6 @@
 				TargetAttributes = {
 					BB0EFAA12A322614009DA542 = {
 						CreatedOnToolsVersion = 14.3;
-					};
-					BB0EFAB72A322615009DA542 = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = BB0EFAA12A322614009DA542;
-					};
-					BB0EFAC12A322615009DA542 = {
-						CreatedOnToolsVersion = 14.3;
-						TestTargetID = BB0EFAA12A322614009DA542;
 					};
 				};
 			};
@@ -220,8 +199,6 @@
 			projectRoot = "";
 			targets = (
 				BB0EFAA12A322614009DA542 /* teste-case-labyrinth-game */,
-				BB0EFAB72A322615009DA542 /* teste-case-labyrinth-gameTests */,
-				BB0EFAC12A322615009DA542 /* teste-case-labyrinth-gameUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -233,21 +210,6 @@
 			files = (
 				BB0EFAB22A322615009DA542 /* LaunchScreen.storyboard in Resources */,
 				BB0EFAAF2A322615009DA542 /* Assets.xcassets in Resources */,
-				BB0EFAAD2A322614009DA542 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB0EFAB62A322615009DA542 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB0EFAC02A322615009DA542 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,53 +220,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB0EFAAA2A322614009DA542 /* ViewController.swift in Sources */,
+				BB0EFAAA2A322614009DA542 /* HomeController.swift in Sources */,
+				BB0EFADD2A32A464009DA542 /* ViewCode.swift in Sources */,
+				BB0EFADA2A32A3F7009DA542 /* HomeView.swift in Sources */,
+				BB0EFADF2A32A9D0009DA542 /* Protocols.swift in Sources */,
 				BB0EFAA62A322614009DA542 /* AppDelegate.swift in Sources */,
+				BB0EFB292A32B51D009DA542 /* GameTableViewCell.swift in Sources */,
 				BB0EFAA82A322614009DA542 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB0EFAB42A322615009DA542 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BB0EFABD2A322615009DA542 /* teste_case_labyrinth_gameTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB0EFABE2A322615009DA542 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BB0EFAC92A322615009DA542 /* teste_case_labyrinth_gameUITestsLaunchTests.swift in Sources */,
-				BB0EFAC72A322615009DA542 /* teste_case_labyrinth_gameUITests.swift in Sources */,
+				BB0EFB222A32B16D009DA542 /* GameView.swift in Sources */,
+				BB0EFB2D2A32E282009DA542 /* ResultController.swift in Sources */,
+				BB0EFB2B2A32BE17009DA542 /* GameButtons.swift in Sources */,
+				BB0EFB2F2A32E2E7009DA542 /* ResultView.swift in Sources */,
+				BB0EFAE12A32AA76009DA542 /* GameController.swift in Sources */,
+				BB0EFB262A32B45E009DA542 /* GameTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		BB0EFABA2A322615009DA542 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BB0EFAA12A322614009DA542 /* teste-case-labyrinth-game */;
-			targetProxy = BB0EFAB92A322615009DA542 /* PBXContainerItemProxy */;
-		};
-		BB0EFAC42A322615009DA542 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BB0EFAA12A322614009DA542 /* teste-case-labyrinth-game */;
-			targetProxy = BB0EFAC32A322615009DA542 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		BB0EFAAB2A322614009DA542 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BB0EFAAC2A322614009DA542 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BB0EFAB02A322615009DA542 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +376,6 @@
 				INFOPLIST_FILE = "teste-case-labyrinth-game/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +403,6 @@
 				INFOPLIST_FILE = "teste-case-labyrinth-game/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -483,82 +415,6 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		BB0EFAD02A322615009DA542 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UFS93RKF34;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.phsouza.teste-case-labyrinth-gameTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/teste-case-labyrinth-game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/teste-case-labyrinth-game";
-			};
-			name = Debug;
-		};
-		BB0EFAD12A322615009DA542 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UFS93RKF34;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.phsouza.teste-case-labyrinth-gameTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/teste-case-labyrinth-game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/teste-case-labyrinth-game";
-			};
-			name = Release;
-		};
-		BB0EFAD32A322615009DA542 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UFS93RKF34;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.phsouza.teste-case-labyrinth-gameUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "teste-case-labyrinth-game";
-			};
-			name = Debug;
-		};
-		BB0EFAD42A322615009DA542 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = UFS93RKF34;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.phsouza.teste-case-labyrinth-gameUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "teste-case-labyrinth-game";
 			};
 			name = Release;
 		};
@@ -579,24 +435,6 @@
 			buildConfigurations = (
 				BB0EFACD2A322615009DA542 /* Debug */,
 				BB0EFACE2A322615009DA542 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BB0EFACF2A322615009DA542 /* Build configuration list for PBXNativeTarget "teste-case-labyrinth-gameTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BB0EFAD02A322615009DA542 /* Debug */,
-				BB0EFAD12A322615009DA542 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BB0EFAD22A322615009DA542 /* Build configuration list for PBXNativeTarget "teste-case-labyrinth-gameUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BB0EFAD32A322615009DA542 /* Debug */,
-				BB0EFAD42A322615009DA542 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
